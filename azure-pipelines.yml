@@ -15,5 +15,5 @@ steps:
 
 - script: |
     set PATH=%PATH%;MinGW\bin\
-    MinGW\bin\gcc run.c -l MinGW\usr\include\python3.6m\ -o PFSA.exe
+    MinGW\bin\gcc run.c -I\MinGW\usr\include\python3.6m\ -o PFSA.exe
   displayName: 'C to .exe file'
