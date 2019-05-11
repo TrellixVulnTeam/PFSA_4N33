@@ -13,7 +13,7 @@ steps:
 - script: Python36\Scripts\cython run.pyx -o run.c --embed
   displayName: 'Python to C'
 
-Write-Host "##vso[task.setvariable variable=PATH;]${env:PATH};MinGW\bin\gcc";
+Write-Host: "##vso[task.setvariable variable=PATH;]${env:PATH};MinGW\bin\gcc";
 
 - script: |
     MinGW\bin\gcc run.c -o PFSA.exe
