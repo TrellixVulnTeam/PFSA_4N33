@@ -577,3 +577,5 @@
 # rebase_pkg information from: /etc/setup/zlib0.lst.gz
 /usr/bin/cygz.dll
 # rebase_pkg information from: /etc/setup/_autorebase.lst.gz
+# rebase_pkg information from: /etc/setup/python3-devel.lst.gz
+# rebase_pkg information from: /etc/setup/python3.lst.gz

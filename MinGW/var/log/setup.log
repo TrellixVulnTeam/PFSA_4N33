@@ -254,3 +254,34 @@
 2019/05/11 18:40:44 Changing gid to Administrators
 2019/05/11 18:40:53 note: Installation Complete
 2019/05/11 18:40:53 Ending cygwin install
+2019/05/11 18:58:19 Starting cygwin install, version 2.897
+2019/05/11 18:58:19 User has backup/restore rights
+2019/05/11 18:58:19 Current Directory: C:\Users\Elsacoding\Downloads
+2019/05/11 18:58:19 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2019/05/11 18:58:22 source: network install
+2019/05/11 18:58:24 root: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW system
+2019/05/11 18:58:43 Selected local directory: C:\Users\Elsacoding\Downloads
+2019/05/11 18:58:46 root: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW system
+2019/05/11 18:58:46 Selected local directory: C:\Users\Elsacoding\Downloads
+2019/05/11 18:58:47 net: Preconfig
+2019/05/11 18:58:49 site: http://cygwin.mirror.constant.com/
+2019/05/11 18:58:49 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/05/11 18:58:49 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2019/05/11 18:58:52 solving: 0 tasks, update: yes, use test packages: no
+2019/05/11 18:59:10 solving: 0 tasks, update: no, use test packages: no
+2019/05/11 18:59:10 Augmented Transaction List: is empty
+2019/05/11 18:59:27 solving: 1 tasks, update: no, use test packages: no
+2019/05/11 18:59:27 Augmented Transaction List:
+2019/05/11 18:59:27    0 install                                         python3             3.6.8-1
+2019/05/11 18:59:27    1 install                                   python3-devel             3.6.8-1
+2019/05/11 18:59:29 Downloaded C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-3.6.8-1.tar.xz
+2019/05/11 18:59:29 Downloaded C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-devel/python3-devel-3.6.8-1.tar.xz
+2019/05/11 18:59:29 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-3.6.8-1.tar.xz
+2019/05/11 18:59:29 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-devel/python3-devel-3.6.8-1.tar.xz
+2019/05/11 18:59:29 Changing gid back to original
+2019/05/11 18:59:29 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2019/05/11 18:59:35 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/05/11 18:59:36 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/05/11 18:59:36 Changing gid to Administrators
+2019/05/11 18:59:52 note: Installation Complete
+2019/05/11 18:59:52 Ending cygwin install
