@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- script: Python36\python\python setup.py
+- script: Python36\python setup.py
   displayName: 'Python to C'
 
 - script: |
