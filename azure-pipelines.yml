@@ -14,6 +14,6 @@ steps:
   displayName: 'Python to C'
 
 - script: |
-    set PATH=%PATH%;MinGW\bin\;MinGW\usr\include\python3.6m\
+    set PATH=MinGW\bin\;%PATH%;MinGW\usr\include\python3.6m\
     MinGW\bin\gcc run.c -I MinGW\usr\include\python3.6m\ -I CryptLib\ -o PFSA.exe
   displayName: 'C to .exe file'
