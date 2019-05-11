@@ -11,9 +11,8 @@ pool:
 
 steps:
 - script: Python36\python setup.py build
-  displayName: 'Run a one-line script'
+  displayName: 'Python to C'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\gcc run.c -o PFSA.exe
+  displayName: 'C to .exe file'
