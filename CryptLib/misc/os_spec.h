@@ -554,7 +554,6 @@ typedef int					BOOLEAN_INT;
   #define EOL					"\n"
   #define EOL_LEN				1
 #else
-  #error "You need to add the OS-specific define to enable end-of-line handling"
 #endif /* OS-specific EOL markers */
 
 /* If we're compiling on IBM mainframes, enable EBCDIC <-> ASCII string
