@@ -10,9 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- script: cython
-- script: curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-- script: python-3.6.8-embed-amd64\python get-pip.py
+- script: python-3.6.8-embed-amd64/python setup.py
   displayName: 'Run a one-line script'
 
 - script: |
