@@ -15,5 +15,5 @@ steps:
 
 - script: |
     set PATH=MinGW\bin\;%PATH%;MinGW\usr\include\python3.6m\
-    MinGW\bin\gcc run.c -I MinGW\usr\include\python3.6m\ -I CryptLib\ -o PFSA.exe
+    MinGW\bin\gcc run.c -I MinGW\usr\include\python3.6m\ -I CryptLib\ -lpython3.6m -o PFSA.exe
   displayName: 'C to .exe file'
