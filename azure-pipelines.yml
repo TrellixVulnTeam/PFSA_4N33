@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- script: python-3.6.8-embed-amd64\python setup.py
+- script: Python36\python setup.py
   displayName: 'Run a one-line script'
 
 - script: |
