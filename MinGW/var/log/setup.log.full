@@ -1,19 +1,17 @@
-2019/05/11 18:58:19 Starting cygwin install, version 2.897
-2019/05/11 18:58:19 User has backup/restore rights
-2019/05/11 18:58:19 Current Directory: C:\Users\Elsacoding\Downloads
-2019/05/11 18:58:19 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
-2019/05/11 18:58:22 source: network install
-2019/05/11 18:58:24 root: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW system
-2019/05/11 18:58:43 Selected local directory: C:\Users\Elsacoding\Downloads
-2019/05/11 18:58:46 root: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW system
-2019/05/11 18:58:46 Selected local directory: C:\Users\Elsacoding\Downloads
-2019/05/11 18:58:47 net: Preconfig
+2019/05/11 20:21:47 Starting cygwin install, version 2.897
+2019/05/11 20:21:47 User has backup/restore rights
+2019/05/11 20:21:47 Current Directory: C:\Users\Elsacoding\Downloads
+2019/05/11 20:21:47 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2019/05/11 20:21:49 source: network install
+2019/05/11 20:21:50 root: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW system
+2019/05/11 20:21:50 Selected local directory: C:\Users\Elsacoding\Downloads
+2019/05/11 20:21:51 net: Preconfig
 Loaded cached mirror list
 Request for URL https://cygwin.com/mirrors.lst satisfied from cache
 Fetched URL: https://cygwin.com/mirrors.lst
-2019/05/11 18:58:49 site: http://cygwin.mirror.constant.com/
-2019/05/11 18:58:49 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
-2019/05/11 18:58:49 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2019/05/11 20:21:53 site: http://cygwin.mirror.constant.com/
+2019/05/11 20:21:53 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/05/11 20:21:54 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
 Request for URL http://cygwin.mirror.constant.com/x86_64/setup.xz.sig satisfied from cache
 Fetched URL: http://cygwin.mirror.constant.com/x86_64/setup.xz.sig
 Request for URL http://cygwin.mirror.constant.com/x86_64/setup.xz satisfied from cache
@@ -22,47 +20,47 @@ compress_xz::bid_xz: success: 48
 compress_xz::bid_xz: success: 48
 .ini setup_version is 2.897, our setup_version is 2.897
 INSTALLED.DB version 3
-2019/05/11 18:58:52 solving: 0 tasks, update: yes, use test packages: no
+2019/05/11 20:21:55 solving: 0 tasks, update: yes, use test packages: no
 libsolv: solver started
 libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
 libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
 libsolv: promoteepoch=0, forbidselfconflicts=0
 libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
 libsolv: dontinstallrecommended=0, addalreadyrecommended=0
-libsolv: number of solvables: 48856, memory used: 2671 K
+libsolv: number of solvables: 48858, memory used: 2671 K
 libsolv: number of ids: 26107 + 48759
 libsolv: string memory used: 101 K array + 447 K data,  rel memory used: 571 K array
 libsolv: string hash memory: 256 K, rel hash memory : 512 K
 libsolv: provide ids: 11178
-libsolv: provide space needed: 36391 + 97518
-libsolv: shrunk whatprovidesdata from 36391 to 36391
-libsolv: shrunk whatprovidesauxdata from 36391 to 25210
+libsolv: provide space needed: 36393 + 97518
+libsolv: shrunk whatprovidesdata from 36393 to 36393
+libsolv: shrunk whatprovidesauxdata from 36393 to 25212
 libsolv: whatprovides memory used: 296 K id array, 523 K data
 libsolv: whatprovidesaux memory used: 101 K id array, 98 K data
 libsolv: WARNING: pool_addfileprovides was not called, this may result in slow operation
 libsolv: lazywhatprovidesq size: 0 entries
-libsolv: createwhatprovides took 2 ms
+libsolv: createwhatprovides took 3 ms
 libsolv: obsoletes data: 1 entries
-libsolv: added 1462 pkg rules for installed solvables
-libsolv: added 41 pkg rules for updaters of installed solvables
+libsolv: added 1509 pkg rules for installed solvables
+libsolv: added 50 pkg rules for updaters of installed solvables
 libsolv: added 0 pkg rules for packages involved in a job
 libsolv: added 0 pkg rules because of weak dependencies
-libsolv: 360 of 24505 installable solvables considered for solving
-libsolv: pruned rules from 1504 to 1504
-libsolv:   binary: 489
-libsolv:   normal: 1014, 3721 literals
-libsolv: pkg rule memory used: 35 K
-libsolv: pkg rule creation took 0 ms
+libsolv: 368 of 24507 installable solvables considered for solving
+libsolv: pruned rules from 1560 to 1560
+libsolv:   binary: 501
+libsolv:   normal: 1058, 3883 literals
+libsolv: pkg rule memory used: 36 K
+libsolv: pkg rule creation took 1 ms
 libsolv: choice rule creation took 0 ms
-libsolv: 1503 pkg rules, 2 * 97 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
-libsolv: overall rule memory used: 39 K
+libsolv: 1559 pkg rules, 2 * 99 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
+libsolv: overall rule memory used: 41 K
 libsolv: solving...
 libsolv: resolving job rules
 libsolv: resolving installed packages
 libsolv: deciding orphaned packages
 libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
 libsolv: done solving.
-libsolv: solver took 1 ms
+libsolv: solver took 0 ms
 libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
 libsolv: solver_solve took 4 ms
 libsolv: 
@@ -73,7 +71,7 @@ libsolv:   base-0.0-0.any (kept)
 libsolv: 
 libsolv: ordering transaction
 libsolv: transaction elements: 0
-2019/05/11 18:59:10 solving: 0 tasks, update: no, use test packages: no
+2019/05/11 20:22:36 solving: 2 tasks, update: no, use test packages: no
 libsolv: solver started
 libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
 libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
@@ -85,12 +83,12 @@ libsolv: added 0 pkg rules for installed solvables
 libsolv: added 0 pkg rules for updaters of installed solvables
 libsolv: added 0 pkg rules for packages involved in a job
 libsolv: added 0 pkg rules because of weak dependencies
-libsolv: 360 of 24505 installable solvables considered for solving
-libsolv: pkg rule memory used: 35 K
+libsolv: 368 of 24507 installable solvables considered for solving
+libsolv: pkg rule memory used: 36 K
 libsolv: pkg rule creation took 1 ms
-libsolv: choice rule creation took 0 ms
-libsolv: 1503 pkg rules, 2 * 97 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
-libsolv: overall rule memory used: 39 K
+libsolv: choice rule creation took 1 ms
+libsolv: 1559 pkg rules, 2 * 99 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
+libsolv: overall rule memory used: 41 K
 libsolv: solving...
 libsolv: resolving job rules
 libsolv: resolving installed packages
@@ -99,7 +97,7 @@ libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
 libsolv: done solving.
 libsolv: solver took 0 ms
 libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
-libsolv: solver_solve took 1 ms
+libsolv: solver_solve took 3 ms
 libsolv: 
 libsolv: transaction:
 libsolv: 
@@ -108,98 +106,505 @@ libsolv:   base-0.0-0.any (kept)
 libsolv: 
 libsolv: ordering transaction
 libsolv: transaction elements: 0
-2019/05/11 18:59:10 Augmented Transaction List: is empty
-2019/05/11 18:59:27 solving: 1 tasks, update: no, use test packages: no
-libsolv: solver started
-libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
-libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
-libsolv: promoteepoch=0, forbidselfconflicts=0
-libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
-libsolv: dontinstallrecommended=0, addalreadyrecommended=0
-libsolv: obsoletes data: 1 entries
-libsolv: added 0 pkg rules for installed solvables
-libsolv: added 0 pkg rules for updaters of installed solvables
-libsolv: added 40 pkg rules for packages involved in a job
-libsolv: added 0 pkg rules because of weak dependencies
-libsolv: 364 of 24505 installable solvables considered for solving
-libsolv: pruned rules from 1544 to 1544
-libsolv:   binary: 494
-libsolv:   normal: 1049, 3850 literals
-libsolv: pkg rule memory used: 36 K
-libsolv: pkg rule creation took 1 ms
-libsolv: choice rule creation took 0 ms
-libsolv: 1543 pkg rules, 2 * 97 update rules, 1 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
-libsolv: overall rule memory used: 40 K
-libsolv: solving...
-libsolv: resolving job rules
-libsolv: resolving installed packages
-libsolv: deciding orphaned packages
-libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
-libsolv: done solving.
-libsolv: solver took 0 ms
-libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
-libsolv: solver_solve took 1 ms
-libsolv: 
-libsolv: transaction:
-libsolv:   install   python3-devel-3.6.8-1.any
-libsolv: 
-libsolv:   install   python3-3.6.8-1.any
-libsolv: 
-libsolv: 
-libsolv: orphaned packages:
-libsolv:   base-0.0-0.any (kept)
-libsolv: 
-libsolv: ordering transaction
-libsolv: transaction elements: 2
-libsolv: edges: 1, edge space: 2
-libsolv: edge creation took 0 ms
-libsolv: cycles broken: 0
-libsolv: cycle breaking took 0 ms
-libsolv: cycle edge creation took 0 ms
-libsolv: invedge space: 5
-libsolv: creating new transaction took 0 ms
-libsolv: transaction ordering took 0 ms
-libsolv: 2 installed packages:
-libsolv:   - python3-3.6.8-1.any
-libsolv:   - python3-devel-3.6.8-1.any
-libsolv: 
-2019/05/11 18:59:27 Augmented Transaction List:
-2019/05/11 18:59:27    0 install                                         python3             3.6.8-1
-2019/05/11 18:59:27    1 install                                   python3-devel             3.6.8-1
-get_url_to_file http://cygwin.mirror.constant.com/x86_64/release/python3/python3-3.6.8-1.tar.xz C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-3.6.8-1.tar.xz.tmp
-Checking SHA512 for file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-3.6.8-1.tar.xz
-SHA512 verified OK: file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-3.6.8-1.tar.xz c185ef13892b4453826f332cfae6ea9e4b30b9048cf738cc042c5a5c9715066bc57eb285d5fb7ab8d081276843150f1dc2c5817eff33ea5fbe85fa032f1773eb
-2019/05/11 18:59:29 Downloaded C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-3.6.8-1.tar.xz
-get_url_to_file http://cygwin.mirror.constant.com/x86_64/release/python3/python3-devel/python3-devel-3.6.8-1.tar.xz C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-devel/python3-devel-3.6.8-1.tar.xz.tmp
-Checking SHA512 for file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-devel/python3-devel-3.6.8-1.tar.xz
-SHA512 verified OK: file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-devel/python3-devel-3.6.8-1.tar.xz d6f1e6cdf394f05b453ffc23bd593dda87f1227bee767b820e87190851c3df58792a73aede65a79dc94bd9b59076dec835fd28c6f226364eff3443463cf6ad4e
-2019/05/11 18:59:29 Downloaded C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-devel/python3-devel-3.6.8-1.tar.xz
+2019/05/11 20:22:36 Augmented Transaction List:
+2019/05/11 20:22:36    0   erase                                        gcc-core             7.4.0-1
+2019/05/11 20:22:36    1 install                                        gcc-core             7.4.0-1
+2019/05/11 20:22:36    2   erase                                         libgcc1             7.4.0-1
+2019/05/11 20:22:36    3 install                                         libgcc1             7.4.0-1
+Checking SHA512 for file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-core/gcc-core-7.4.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-core/gcc-core-7.4.0-1.tar.xz 16dca7b383dcc7694fce5994af7092fabb7b5c2c8a2fa5268a917888b5af7dc3609328807e0233244ec2ac616daf48d347e84d1c30e72036f3c3dab8a8a61385
+Checking SHA512 for file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-7.4.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-7.4.0-1.tar.xz e43e4ad2c6526dea3b6dfbf73f79acdfa302ca3d24c12633a0f15ca188fa3a540db1fe44593867b5119d8872b777ccdabaf46b5a1e6d24ce6c868573ac20022b
+Running preremove script for gcc-core
+Running preremove script for libgcc1
+2019/05/11 20:22:38 Uninstalling gcc-core
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/cc
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/c89
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/c99
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/cpp.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/gcc.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/gcc-ar.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/gcc-nm.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/gcc-ranlib.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/gcov.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/gcov-tool.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/gcov-dump.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/x86_64-pc-cygwin-gcc-7.4.0.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/x86_64-pc-cygwin-gcc.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/x86_64-pc-cygwin-gcc-ar.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/x86_64-pc-cygwin-gcc-nm.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/x86_64-pc-cygwin-gcc-ranlib.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/cpp
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/adxintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/ammintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx2intrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx5124fmapsintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx5124vnniwintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512bwintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512cdintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512dqintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512erintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512fintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512ifmaintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512ifmavlintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512pfintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vbmiintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vbmivlintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vlbwintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vldqintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vlintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vpopcntdqintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/avxintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/bmi2intrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/bmiintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/bmmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/clflushoptintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/clwbintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/clzerointrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/cpuid.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/cross-stdarg.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/emmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/f16cintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/float.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/fma4intrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/fmaintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/fxsrintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/gcov.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/ia32intrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/immintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/iso646.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/limits.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/lwpintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/lzcntintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/mm3dnow.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/mm_malloc.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/mmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/mwaitxintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/nmmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/omp.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/openacc.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/pkuintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/pmmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/popcntintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/prfchwintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/quadmath.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/quadmath_weak.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/rdseedintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/rtmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/sgxintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/shaintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/smmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdalign.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdarg.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdatomic.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdbool.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/stddef.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdfix.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdint-gcc.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdint.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdnoreturn.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/syslimits.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/tbmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/tgmath.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/tmmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/unwind.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/varargs.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/wmmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/x86intrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/xmmintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/xopintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/xsavecintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/xsaveintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/xsaveoptintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/xsavesintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/include/xtestintrin.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/fixinc.sh
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/fixincl.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/fixinc_list
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/gsyslimits.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/include/limits.h
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/include/README
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/macro_list
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/mkheaders
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/mkheaders.conf
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/mkinstalldirs
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/cc1.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/crtbeginS.o
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/crtend.o
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/crtfastmath.o
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libatomic.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libatomic.dll.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libgcc.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libgcc_eh.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libgcc_s.dll.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libgcov.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libgomp.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libgomp.dll.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libgomp.spec
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libitm.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libitm.spec
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libquadmath.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/libquadmath.dll.a
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/lto1.exe
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/ChangeLog
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/COPYING
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/COPYING.LIB
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/binaries.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/build.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/configure.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/download.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/finalinstall.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/gfdl.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/index.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/old.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/prerequisites.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/README
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/specific.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL/test.html
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/MAINTAINERS
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/NEWS
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/README
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/info/cpp.info.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/info/cppinternals.info.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/info/gcc.info.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/info/gccinstall.info.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/info/gccint.info.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/info/libgomp.info.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/info/libitm.info.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/info/libquadmath.info.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/be/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/be/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/ca/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/da/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/da/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/de/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/de/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/el/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/el/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/eo/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/es/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/es/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/fi/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/fi/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/fr/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/fr/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/hr/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/id/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/id/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/ja/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/ja/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/nl/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/nl/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/pt_BR/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/ru/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/ru/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/sr/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/sr/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/sv/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/sv/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/tr/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/tr/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/uk/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/uk/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/vi/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/vi/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/zh_CN/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/zh_TW/LC_MESSAGES/cpplib.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/locale/zh_TW/LC_MESSAGES/gcc.mo
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/man/man1/cpp.1.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/man/man1/gcc.1.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/man/man1/gcov.1.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/man/man1/gcov-dump.1.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/man/man1/gcov-tool.1.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/man/man7/fsf-funding.7.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/man/man7/gfdl.7.gz
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/man/man7/gpl.7.gz
+rmdir C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc/INSTALL
+rmdir C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW/usr/share/doc/gcc
+rmdir C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/include
+rmdir C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools
+2019/05/11 20:22:38 Uninstalling libgcc1
+unlink C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin/cyggcc_s-seh-1.dll
 compress_xz::bid_xz: success: 48
 compress_xz::bid_xz: success: 48
-2019/05/11 18:59:29 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-3.6.8-1.tar.xz
-Installing file cygfile:///usr/bin/pydoc3
-io_stream::mklink (cygfile:///usr/bin/pydoc3->cygfile://pydoc3.6)
-Installing file cygfile:///usr/bin/python3
-io_stream::mklink (cygfile:///usr/bin/python3->cygfile://python3.6m.exe)
-Installing file cygfile:///usr/bin/pyvenv
-io_stream::mklink (cygfile:///usr/bin/pyvenv->cygfile://pyvenv-3.6)
-Installing file cygfile:///usr/share/man/man1/python3.1.gz
+2019/05/11 20:22:38 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-core/gcc-core-7.4.0-1.tar.xz
+Installing file cygfile:///usr/bin/cc
+io_stream::mklink (cygfile:///usr/bin/cc->cygfile://gcc.exe)
+Installing file cygfile:///usr/bin/c89
+Installing file cygfile:///usr/bin/c99
+Installing file cygfile:///usr/bin/cpp.exe
+Installing file cygfile:///usr/bin/gcc.exe
+Installing file cygfile:///usr/bin/gcc-ar.exe
+Installing file cygfile:///usr/bin/gcc-nm.exe
+Installing file cygfile:///usr/bin/gcc-ranlib.exe
+Installing file cygfile:///usr/bin/gcov.exe
+Installing file cygfile:///usr/bin/gcov-tool.exe
+Installing file cygfile:///usr/bin/gcov-dump.exe
+Installing file cygfile:///usr/bin/x86_64-pc-cygwin-gcc-7.4.0.exe
+io_stream::mklink (cygfile:///usr/bin/x86_64-pc-cygwin-gcc-7.4.0.exe->cygfile:///usr/bin/gcc.exe)
+Installing file cygfile:///usr/bin/x86_64-pc-cygwin-gcc.exe
+io_stream::mklink (cygfile:///usr/bin/x86_64-pc-cygwin-gcc.exe->cygfile:///usr/bin/gcc.exe)
+Installing file cygfile:///usr/bin/x86_64-pc-cygwin-gcc-ar.exe
+io_stream::mklink (cygfile:///usr/bin/x86_64-pc-cygwin-gcc-ar.exe->cygfile:///usr/bin/gcc-ar.exe)
+Installing file cygfile:///usr/bin/x86_64-pc-cygwin-gcc-nm.exe
+io_stream::mklink (cygfile:///usr/bin/x86_64-pc-cygwin-gcc-nm.exe->cygfile:///usr/bin/gcc-nm.exe)
+Installing file cygfile:///usr/bin/x86_64-pc-cygwin-gcc-ranlib.exe
+io_stream::mklink (cygfile:///usr/bin/x86_64-pc-cygwin-gcc-ranlib.exe->cygfile:///usr/bin/gcc-ranlib.exe)
+Installing file cygfile:///usr/lib/cpp
+io_stream::mklink (cygfile:///usr/lib/cpp->cygfile://../bin/cpp.exe)
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/adxintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/ammintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx2intrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx5124fmapsintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx5124vnniwintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512bwintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512cdintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512dqintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512erintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512fintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512ifmaintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512ifmavlintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512pfintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vbmiintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vbmivlintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vlbwintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vldqintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vlintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avx512vpopcntdqintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/avxintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/bmi2intrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/bmiintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/bmmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/clflushoptintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/clwbintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/clzerointrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/cpuid.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/cross-stdarg.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/emmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/f16cintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/float.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/fma4intrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/fmaintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/fxsrintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/gcov.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/ia32intrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/immintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/iso646.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/limits.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/lwpintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/lzcntintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/mm3dnow.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/mm_malloc.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/mmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/mwaitxintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/nmmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/omp.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/openacc.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/pkuintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/pmmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/popcntintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/prfchwintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/quadmath.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/quadmath_weak.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/rdseedintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/rtmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/sgxintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/shaintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/smmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdalign.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdarg.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdatomic.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdbool.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/stddef.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdfix.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdint-gcc.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdint.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/stdnoreturn.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/syslimits.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/tbmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/tgmath.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/tmmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/unwind.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/varargs.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/wmmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/x86intrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/xmmintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/xopintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/xsavecintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/xsaveintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/xsaveoptintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/xsavesintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/xtestintrin.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/fixinc.sh
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/fixincl.exe
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/fixinc_list
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/gsyslimits.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/include/
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/include/limits.h
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/include/README
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/macro_list
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/mkheaders
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/mkheaders.conf
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/mkinstalldirs
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cc1.exe
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbegin.o
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtbeginS.o
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtend.o
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/crtfastmath.o
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libatomic.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libatomic.dll.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libgcc.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libgcc_eh.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libgcc_s.dll.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libgcov.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libgomp.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libgomp.dll.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libgomp.spec
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libitm.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libitm.spec
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libquadmath.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/libquadmath.dll.a
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe
+Installing file cygfile:///usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto1.exe
+Installing file cygfile:///usr/share/doc/gcc/
+Installing file cygfile:///usr/share/doc/gcc/ChangeLog
+Installing file cygfile:///usr/share/doc/gcc/COPYING
+Installing file cygfile:///usr/share/doc/gcc/COPYING.LIB
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/binaries.html
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/build.html
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/configure.html
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/download.html
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/finalinstall.html
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/gfdl.html
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/index.html
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/old.html
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/prerequisites.html
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/README
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/specific.html
+Installing file cygfile:///usr/share/doc/gcc/INSTALL/test.html
+Installing file cygfile:///usr/share/doc/gcc/MAINTAINERS
+Installing file cygfile:///usr/share/doc/gcc/NEWS
+Installing file cygfile:///usr/share/doc/gcc/README
+Installing file cygfile:///usr/share/info/cpp.info.gz
+Installing file cygfile:///usr/share/info/cppinternals.info.gz
+Installing file cygfile:///usr/share/info/gcc.info.gz
+Installing file cygfile:///usr/share/info/gccinstall.info.gz
+Installing file cygfile:///usr/share/info/gccint.info.gz
+Installing file cygfile:///usr/share/info/libgomp.info.gz
+Installing file cygfile:///usr/share/info/libitm.info.gz
+Installing file cygfile:///usr/share/info/libquadmath.info.gz
+Installing file cygfile:///usr/share/locale/be/
+Installing file cygfile:///usr/share/locale/be/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/be/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/be/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/ca/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/da/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/de/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/el/
+Installing file cygfile:///usr/share/locale/el/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/el/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/el/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/eo/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/es/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/fi/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/fr/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/hr/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/id/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/ja/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/nl/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/pt_BR/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/ru/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/sr/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/sv/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/tr/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/uk/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/vi/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/zh_CN/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/locale/zh_TW/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/cpplib.mo
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/gcc.mo
+Installing file cygfile:///usr/share/man/man1/cpp.1.gz
+Installing file cygfile:///usr/share/man/man1/gcc.1.gz
+Installing file cygfile:///usr/share/man/man1/gcov.1.gz
+Installing file cygfile:///usr/share/man/man1/gcov-dump.1.gz
+Installing file cygfile:///usr/share/man/man1/gcov-tool.1.gz
+Installing file cygfile:///usr/share/man/man7/fsf-funding.7.gz
+Installing file cygfile:///usr/share/man/man7/gfdl.7.gz
+Installing file cygfile:///usr/share/man/man7/gpl.7.gz
 compress_xz::bid_xz: success: 48
 compress_xz::bid_xz: success: 48
-2019/05/11 18:59:29 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/python3/python3-devel/python3-devel-3.6.8-1.tar.xz
-Installing file cygfile:///usr/bin/2to3
-io_stream::mklink (cygfile:///usr/bin/2to3->cygfile://2to3-3.6)
-Installing file cygfile:///usr/bin/python3-config
-io_stream::mklink (cygfile:///usr/bin/python3-config->cygfile://python3.6m-config)
-Installing file cygfile:///usr/lib/pkgconfig/python3.pc
-io_stream::mklink (cygfile:///usr/lib/pkgconfig/python3.pc->cygfile://python-3.6.pc)
-2019/05/11 18:59:29 Changing gid back to original
+2019/05/11 20:22:40 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-7.4.0-1.tar.xz
+Installing file cygfile:///usr/bin/cyggcc_s-seh-1.dll
+2019/05/11 20:22:40 Changing gid back to original
 Visited: 98 nodes out of 11177 while creating dependency order.
 Dependency order of packages: cygwin dash _autorebase libiconv2 libintl8 alternatives base-cygwin libattr1 libgmp10 tzdata terminfo libncursesw10 libreadline7 tzcode coreutils bash findutils sed base-files binutils libbz2_1 bzip2 libffi6 libgcc1 libp11-kit0 p11-kit libtasn1_6 p11-kit-trust ca-certificates crypto-policies libpopt-common libpopt0 cygutils cygwin-devel libsigsegv2 diffutils editrights zlib0 file libmpfr6 gawk libatomic1 libgomp1 libisl15 libmpc3 libquadmath0 w32api-headers w32api-runtime windows-default-manifest gcc-core libstdc++6 gcc-g++ libargp getent libpcre1 grep groff gzip hostname info ipc-utils less libuuid1 libblkid1 libcrypt0 libexpat1 libfdisk1 libgdbm4 libiconv liblzma5 libpipeline1 libpkgconf3 libsmartcols1 libsqlite3_0 libssl1.0 libssl1.1 pkgconf pkg-config libuuid-devel login util-linux man-db mintty ncurses openssl python-pip-wheel python-setuptools-wheel python36 python3 python36-setuptools python36-devel python3-devel rebase run xz tar vim-minimal which 
-2019/05/11 18:59:29 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2019/05/11 20:22:40 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
 Updating package information in /var/cache/rebase/rebase_pkg.
-	from /etc/setup/python3-devel.lst.gz...
-	from /etc/setup/python3.lst.gz...
+	from /etc/setup/gcc-core.lst.gz...
+	from /etc/setup/libgcc1.lst.gz...
 Updating rebase information for installed dynamic objects in /var/cache/rebase/rebase_lst.
 Updating rebase information for installed executables in /var/cache/rebase/rebase_exe.
 removing /var/cache/rebase/rebase_dyn
@@ -210,10 +615,10 @@ Updating rebase information for dynamic language modules/libraries /var/cache/re
 Updating rebase information for user-defined dynamic objects /var/cache/rebase/rebase_user.
 Updating rebase information for user-defined executables /var/cache/rebase/rebase_user_exe.
 Rebasing with list /var/cache/rebase/rebase_all, built from /var/cache/rebase/rebase_lst /var/cache/rebase/rebase_dyn /var/cache/rebase/rebase_user.
-2019/05/11 18:59:35 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
-2019/05/11 18:59:36 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
-2019/05/11 18:59:36 Changing gid to Administrators
+2019/05/11 20:22:47 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/05/11 20:22:47 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/05/11 20:22:48 Changing gid to Administrators
 Program directory for program link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 Desktop directory for desktop link: C:\Users\Public\Desktop
-2019/05/11 18:59:52 note: Installation Complete
-2019/05/11 18:59:52 Ending cygwin install
+2019/05/11 20:22:51 note: Installation Complete
+2019/05/11 20:22:51 Ending cygwin install

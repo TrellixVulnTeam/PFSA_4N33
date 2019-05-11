@@ -285,3 +285,45 @@
 2019/05/11 18:59:36 Changing gid to Administrators
 2019/05/11 18:59:52 note: Installation Complete
 2019/05/11 18:59:52 Ending cygwin install
+2019/05/11 20:09:59 Starting cygwin install, version 2.897
+2019/05/11 20:09:59 User has backup/restore rights
+2019/05/11 20:09:59 Current Directory: C:\Users\Elsacoding\Downloads
+2019/05/11 20:09:59 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2019/05/11 20:10:01 source: network install
+2019/05/11 20:10:02 root: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW system
+2019/05/11 20:10:04 Selected local directory: C:\Users\Elsacoding\Downloads
+2019/05/11 20:10:04 net: Preconfig
+2019/05/11 20:10:06 site: http://cygwin.mirror.constant.com/
+2019/05/11 20:10:07 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/05/11 20:10:07 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2019/05/11 20:10:09 solving: 0 tasks, update: yes, use test packages: no
+2019/05/11 20:12:16 Ending cygwin install
+2019/05/11 20:21:47 Starting cygwin install, version 2.897
+2019/05/11 20:21:47 User has backup/restore rights
+2019/05/11 20:21:47 Current Directory: C:\Users\Elsacoding\Downloads
+2019/05/11 20:21:47 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2019/05/11 20:21:49 source: network install
+2019/05/11 20:21:50 root: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW system
+2019/05/11 20:21:50 Selected local directory: C:\Users\Elsacoding\Downloads
+2019/05/11 20:21:51 net: Preconfig
+2019/05/11 20:21:53 site: http://cygwin.mirror.constant.com/
+2019/05/11 20:21:53 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/05/11 20:21:54 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2019/05/11 20:21:55 solving: 0 tasks, update: yes, use test packages: no
+2019/05/11 20:22:36 solving: 2 tasks, update: no, use test packages: no
+2019/05/11 20:22:36 Augmented Transaction List:
+2019/05/11 20:22:36    0   erase                                        gcc-core             7.4.0-1
+2019/05/11 20:22:36    1 install                                        gcc-core             7.4.0-1
+2019/05/11 20:22:36    2   erase                                         libgcc1             7.4.0-1
+2019/05/11 20:22:36    3 install                                         libgcc1             7.4.0-1
+2019/05/11 20:22:38 Uninstalling gcc-core
+2019/05/11 20:22:38 Uninstalling libgcc1
+2019/05/11 20:22:38 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/gcc-core/gcc-core-7.4.0-1.tar.xz
+2019/05/11 20:22:40 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-7.4.0-1.tar.xz
+2019/05/11 20:22:40 Changing gid back to original
+2019/05/11 20:22:40 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2019/05/11 20:22:47 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/05/11 20:22:47 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/05/11 20:22:48 Changing gid to Administrators
+2019/05/11 20:22:51 note: Installation Complete
+2019/05/11 20:22:51 Ending cygwin install
