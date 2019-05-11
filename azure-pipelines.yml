@@ -14,5 +14,7 @@ steps:
   displayName: 'Python to C'
 
 - script: |
-    C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\gcc run.c -o PFSA.exe
+    move setup.c C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\gcc\
+    cd C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\gcc
+    gcc run.c -o PFSA.exe
   displayName: 'C to .exe file'
