@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- script: Python36\Scripts\cython run.pyx -o run.c --embed
+- script: Python36\python setup.py build
   displayName: 'Python to C'
 
 - script: |
