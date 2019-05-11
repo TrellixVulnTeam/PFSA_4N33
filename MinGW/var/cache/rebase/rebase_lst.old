@@ -12,7 +12,7 @@
 /usr/lib/gawk/revtwoway.dll
 /usr/lib/gawk/rwarray.dll
 /usr/lib/gawk/time.dll
-#/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll
+##/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll
 /usr/bin/cygargp-0.dll
 /usr/bin/cygatomic-1.dll
 /usr/bin/cygattr-1.dll
@@ -22,7 +22,7 @@
 /usr/bin/cygexpat-1.dll
 /usr/bin/cygfdisk-1.dll
 /usr/bin/cygffi-6.dll
-#/usr/bin/cyggcc_s-seh-1.dll
+##/usr/bin/cyggcc_s-seh-1.dll
 /usr/bin/cyggdbm-4.dll
 /usr/bin/cyggdbm_compat-4.dll
 /usr/bin/cyggmp-10.dll
@@ -136,3 +136,4 @@
 /usr/bin/cygz.dll
 /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll
 /usr/bin/cyggcc_s-seh-1.dll
+/usr/lib/gcc/x86_64-w64-mingw32/7.4.0/cyglto_plugin-0.dll

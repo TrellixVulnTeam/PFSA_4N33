@@ -223,26 +223,26 @@
 /usr/lib/gawk/time.dll
 /usr/libexec/awk/pwcat.exe
 /usr/libexec/awk/grcat.exe
-# rebase_pkg information from: /etc/setup/gcc-core.lst.gz
-/usr/bin/cpp.exe
-/usr/bin/gcc.exe
-/usr/bin/gcc-ar.exe
-/usr/bin/gcc-nm.exe
-/usr/bin/gcc-ranlib.exe
-/usr/bin/gcov.exe
-/usr/bin/gcov-tool.exe
-/usr/bin/gcov-dump.exe
-/usr/bin/x86_64-pc-cygwin-gcc-7.4.0.exe
-/usr/bin/x86_64-pc-cygwin-gcc.exe
-/usr/bin/x86_64-pc-cygwin-gcc-ar.exe
-/usr/bin/x86_64-pc-cygwin-gcc-nm.exe
-/usr/bin/x86_64-pc-cygwin-gcc-ranlib.exe
-/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/fixincl.exe
-/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cc1.exe
-/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe
-/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll
-/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe
-/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto1.exe
+## rebase_pkg information from: /etc/setup/gcc-core.lst.gz
+#/usr/bin/cpp.exe
+#/usr/bin/gcc.exe
+#/usr/bin/gcc-ar.exe
+#/usr/bin/gcc-nm.exe
+#/usr/bin/gcc-ranlib.exe
+#/usr/bin/gcov.exe
+#/usr/bin/gcov-tool.exe
+#/usr/bin/gcov-dump.exe
+#/usr/bin/x86_64-pc-cygwin-gcc-7.4.0.exe
+#/usr/bin/x86_64-pc-cygwin-gcc.exe
+#/usr/bin/x86_64-pc-cygwin-gcc-ar.exe
+#/usr/bin/x86_64-pc-cygwin-gcc-nm.exe
+#/usr/bin/x86_64-pc-cygwin-gcc-ranlib.exe
+#/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/install-tools/fixincl.exe
+#/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cc1.exe
+#/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/collect2.exe
+#/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/cyglto_plugin.dll
+#/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe
+#/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto1.exe
 # rebase_pkg information from: /etc/setup/gcc-g++.lst.gz
 /usr/bin/c++.exe
 /usr/bin/g++.exe
@@ -309,8 +309,8 @@
 /usr/bin/cygfdisk-1.dll
 # rebase_pkg information from: /etc/setup/libffi6.lst.gz
 /usr/bin/cygffi-6.dll
-# rebase_pkg information from: /etc/setup/libgcc1.lst.gz
-/usr/bin/cyggcc_s-seh-1.dll
+## rebase_pkg information from: /etc/setup/libgcc1.lst.gz
+#/usr/bin/cyggcc_s-seh-1.dll
 # rebase_pkg information from: /etc/setup/libgdbm4.lst.gz
 /usr/bin/cyggdbm-4.dll
 /usr/bin/cyggdbm_compat-4.dll
@@ -601,3 +601,55 @@
 /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto1.exe
 # rebase_pkg information from: /etc/setup/libgcc1.lst.gz
 /usr/bin/cyggcc_s-seh-1.dll
+# rebase_pkg information from: /etc/setup/mingw64-x86_64-binutils.lst.gz
+/usr/bin/x86_64-w64-mingw32-addr2line.exe
+/usr/bin/x86_64-w64-mingw32-ar.exe
+/usr/bin/x86_64-w64-mingw32-as.exe
+/usr/bin/x86_64-w64-mingw32-c++filt.exe
+/usr/bin/x86_64-w64-mingw32-dlltool.exe
+/usr/bin/x86_64-w64-mingw32-dllwrap.exe
+/usr/bin/x86_64-w64-mingw32-elfedit.exe
+/usr/bin/x86_64-w64-mingw32-gprof.exe
+/usr/bin/x86_64-w64-mingw32-ld.bfd.exe
+/usr/bin/x86_64-w64-mingw32-ld.exe
+/usr/bin/x86_64-w64-mingw32-nm.exe
+/usr/bin/x86_64-w64-mingw32-objcopy.exe
+/usr/bin/x86_64-w64-mingw32-objdump.exe
+/usr/bin/x86_64-w64-mingw32-ranlib.exe
+/usr/bin/x86_64-w64-mingw32-readelf.exe
+/usr/bin/x86_64-w64-mingw32-size.exe
+/usr/bin/x86_64-w64-mingw32-strings.exe
+/usr/bin/x86_64-w64-mingw32-strip.exe
+/usr/bin/x86_64-w64-mingw32-windmc.exe
+/usr/bin/x86_64-w64-mingw32-windres.exe
+/usr/x86_64-w64-mingw32/bin/ar.exe
+/usr/x86_64-w64-mingw32/bin/as.exe
+/usr/x86_64-w64-mingw32/bin/dlltool.exe
+/usr/x86_64-w64-mingw32/bin/ld.bfd.exe
+/usr/x86_64-w64-mingw32/bin/ld.exe
+/usr/x86_64-w64-mingw32/bin/nm.exe
+/usr/x86_64-w64-mingw32/bin/objcopy.exe
+/usr/x86_64-w64-mingw32/bin/objdump.exe
+/usr/x86_64-w64-mingw32/bin/ranlib.exe
+/usr/x86_64-w64-mingw32/bin/readelf.exe
+/usr/x86_64-w64-mingw32/bin/strip.exe
+# rebase_pkg information from: /etc/setup/mingw64-x86_64-gcc-core.lst.gz
+/usr/bin/x86_64-w64-mingw32-cpp.exe
+/usr/bin/x86_64-w64-mingw32-gcc.exe
+/usr/bin/x86_64-w64-mingw32-gcc-7.4.0.exe
+/usr/bin/x86_64-w64-mingw32-gcc-ar.exe
+/usr/bin/x86_64-w64-mingw32-gcc-nm.exe
+/usr/bin/x86_64-w64-mingw32-gcc-ranlib.exe
+/usr/bin/x86_64-w64-mingw32-gcov.exe
+/usr/bin/x86_64-w64-mingw32-gcov-dump.exe
+/usr/bin/x86_64-w64-mingw32-gcov-tool.exe
+/usr/lib/gcc/x86_64-w64-mingw32/7.4.0/cc1.exe
+/usr/lib/gcc/x86_64-w64-mingw32/7.4.0/collect2.exe
+/usr/lib/gcc/x86_64-w64-mingw32/7.4.0/cyglto_plugin-0.dll
+/usr/lib/gcc/x86_64-w64-mingw32/7.4.0/install-tools/fixincl.exe
+/usr/lib/gcc/x86_64-w64-mingw32/7.4.0/lto-wrapper.exe
+/usr/lib/gcc/x86_64-w64-mingw32/7.4.0/lto1.exe
+# rebase_pkg information from: /etc/setup/mingw64-x86_64-headers.lst.gz
+# rebase_pkg information from: /etc/setup/mingw64-x86_64-runtime.lst.gz
+# rebase_pkg information from: /etc/setup/mingw64-x86_64-windows-default-manifest.lst.gz
+# rebase_pkg information from: /etc/setup/mingw64-x86_64-winpthreads.lst.gz

@@ -327,3 +327,42 @@
 2019/05/11 20:22:48 Changing gid to Administrators
 2019/05/11 20:22:51 note: Installation Complete
 2019/05/11 20:22:51 Ending cygwin install
+2019/05/11 20:27:07 Starting cygwin install, version 2.897
+2019/05/11 20:27:07 User has backup/restore rights
+2019/05/11 20:27:07 Current Directory: C:\Users\Elsacoding\Downloads
+2019/05/11 20:27:07 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2019/05/11 20:27:10 source: network install
+2019/05/11 20:27:12 root: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW system
+2019/05/11 20:27:13 Selected local directory: C:\Users\Elsacoding\Downloads
+2019/05/11 20:27:13 net: Preconfig
+2019/05/11 20:27:15 site: http://cygwin.mirror.constant.com/
+2019/05/11 20:27:15 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2019/05/11 20:27:16 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2019/05/11 20:27:17 solving: 0 tasks, update: yes, use test packages: no
+2019/05/11 20:28:18 solving: 1 tasks, update: no, use test packages: no
+2019/05/11 20:28:18 Augmented Transaction List:
+2019/05/11 20:28:18    0 install         mingw64-x86_64-windows-default-manifest               6.4-1
+2019/05/11 20:28:18    1 install                         mingw64-x86_64-binutils   2.29.1.787c9873-1
+2019/05/11 20:28:18    2 install                      mingw64-x86_64-winpthreads             6.0.0-1
+2019/05/11 20:28:18    3 install                          mingw64-x86_64-headers             6.0.0-1
+2019/05/11 20:28:18    4 install                          mingw64-x86_64-runtime             6.0.0-1
+2019/05/11 20:28:18    5 install                         mingw64-x86_64-gcc-core             7.4.0-1
+2019/05/11 20:28:20 Downloaded C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-windows-default-manifest/mingw64-x86_64-windows-default-manifest-6.4-1.tar.xz
+2019/05/11 20:28:21 Downloaded C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-binutils/mingw64-x86_64-binutils-2.29.1.787c9873-1.tar.xz
+2019/05/11 20:28:21 Downloaded C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-winpthreads/mingw64-x86_64-winpthreads-6.0.0-1.tar.xz
+2019/05/11 20:28:21 Downloaded C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-headers/mingw64-x86_64-headers-6.0.0-1.tar.xz
+2019/05/11 20:28:22 Downloaded C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-runtime/mingw64-x86_64-runtime-6.0.0-1.tar.xz
+2019/05/11 20:28:23 Downloaded C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-core/mingw64-x86_64-gcc-core-7.4.0-1.tar.xz
+2019/05/11 20:28:23 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-windows-default-manifest/mingw64-x86_64-windows-default-manifest-6.4-1.tar.xz
+2019/05/11 20:28:23 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-binutils/mingw64-x86_64-binutils-2.29.1.787c9873-1.tar.xz
+2019/05/11 20:28:23 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-winpthreads/mingw64-x86_64-winpthreads-6.0.0-1.tar.xz
+2019/05/11 20:28:23 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-headers/mingw64-x86_64-headers-6.0.0-1.tar.xz
+2019/05/11 20:28:26 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-runtime/mingw64-x86_64-runtime-6.0.0-1.tar.xz
+2019/05/11 20:28:28 Extracting from file://C:\Users\Elsacoding\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-core/mingw64-x86_64-gcc-core-7.4.0-1.tar.xz
+2019/05/11 20:28:30 Changing gid back to original
+2019/05/11 20:28:30 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2019/05/11 20:28:37 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2019/05/11 20:28:38 running: C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2019/05/11 20:28:38 Changing gid to Administrators
+2019/05/11 20:28:40 note: Installation Complete
+2019/05/11 20:28:40 Ending cygwin install

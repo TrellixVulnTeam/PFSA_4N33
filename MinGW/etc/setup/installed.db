@@ -68,6 +68,12 @@ libuuid-devel libuuid-devel-2.33.1-1.tar.bz2 0
 libuuid1 libuuid1-2.33.1-1.tar.bz2 0
 login login-1.13-1.tar.bz2 0
 man-db man-db-2.7.6.1-1.tar.bz2 0
+mingw64-x86_64-binutils mingw64-x86_64-binutils-2.29.1.787c9873-1.tar.bz2 0
+mingw64-x86_64-gcc-core mingw64-x86_64-gcc-core-7.4.0-1.tar.bz2 1
+mingw64-x86_64-headers mingw64-x86_64-headers-6.0.0-1.tar.bz2 0
+mingw64-x86_64-runtime mingw64-x86_64-runtime-6.0.0-1.tar.bz2 0
+mingw64-x86_64-windows-default-manifest mingw64-x86_64-windows-default-manifest-6.4-1.tar.bz2 0
+mingw64-x86_64-winpthreads mingw64-x86_64-winpthreads-6.0.0-1.tar.bz2 0
 mintty mintty-3.0.0-1.tar.bz2 0
 ncurses ncurses-6.0-12.20171125.tar.bz2 0
 openssl openssl-1.1.1b-1.tar.bz2 0
