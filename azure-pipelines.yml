@@ -10,10 +10,11 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- script: Python36\python setup.py
-  displayName: 'Run a one-line script'
+- script: Python36\python setup.py build
+  displayName: 'Python to C'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    move setup.c C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\gcc\
+    cd C:\Users\Elsacoding\Documents\GitHub\PFSA\MinGW\bin\gcc
+    gcc run.c -o PFSA.exe
+  displayName: 'C to .exe file'
