@@ -24,8 +24,10 @@ steps:
     replaceExistingArchive: true
 
 
-steps:
-- script: |
+
+- task: CmdLine@2
+  inputs:
+    script: |
     Git\git-cmd --help
     Git\git-cmd release create -m Latest $(Build.BuildId) -p -f '$(Build.BuildId).zip' 
     displayName: 'Release'
