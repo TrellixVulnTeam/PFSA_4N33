@@ -2,10 +2,17 @@ import os
 import sys
 import pathlib
 
-
-current_dir = pathlib.Path(os.getcwd())
-if sys.argv[0] == "path":
-print("__________"+os.getcwd()+"__________")
-
-for x in range(len(os.listdir(current_dir))):
-    print("|"+os.listdir(current_dir)[x])
+def pathlistdisplay(directory):
+    print("__________"+str(pathlib.Path(directory))+"__________")
+    for x in range(len(os.listdir(directory))):
+        print("|"+os.listdir(directory)[x])
+current_dir = str(pathlib.Path(os.getcwd()))
+try:
+    a = sys.argv[1]+" "
+    pth = True
+except:
+    pth = False
+if pth == True:
+    pathlistdisplay(sys.argv[1])
+else:
+    pathlistdisplay(current_dir)
