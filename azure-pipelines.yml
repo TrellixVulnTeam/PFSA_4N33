@@ -11,7 +11,8 @@ pool:
 
 steps:
 - script: |
+    set PATH=%PATH%;Python36\Scripts;Python36
     build
-    displayName: 'Python to C'
+    displayName: 'Build'
 
 
