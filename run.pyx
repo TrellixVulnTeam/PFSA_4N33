@@ -1,2 +1,0 @@
-print("please kill me")
-

@@ -1,0 +1,2 @@
+print("please kill me")
+
