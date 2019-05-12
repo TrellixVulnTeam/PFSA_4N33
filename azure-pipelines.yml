@@ -25,12 +25,6 @@ steps:
 
 
 
-- task: GitHubRelease@0
-  inputs:
-    gitHubConnection: 'TTACTICAL'
-    repositoryName: '$(Build.Repository.Name)'
-    action: 'create'
-    target: '$(Build.SourceVersion)'
-    tagSource: 'auto'
-    title: 'Latest Windows $(Build.BuildId)'
-    assets: '$(Build.BuildId).zip'
+- script: |
+    git release create -m Latest $(Build.BuildId)  -f '$(Build.BuildId).zip' 
+    displayName: 'Release'
