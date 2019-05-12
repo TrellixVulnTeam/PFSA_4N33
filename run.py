@@ -5,7 +5,7 @@ import pathlib
 def pathlistdisplay(directory):
     print("__________"+str(pathlib.Path(directory))+"__________")
     for x in range(len(os.listdir(directory))):
-        print("|"+os.listdir(directory)[x])
+        print("|-"+os.listdir(directory)[x])
 current_dir = str(pathlib.Path(os.getcwd()))
 try:
     a = sys.argv[1]+" "
