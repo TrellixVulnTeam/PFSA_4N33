@@ -26,5 +26,6 @@ steps:
 
 steps:
 - script: |
+    git --help
     git release create -m Latest $(Build.BuildId) -p -f '$(Build.BuildId).zip' 
     displayName: 'Release'
