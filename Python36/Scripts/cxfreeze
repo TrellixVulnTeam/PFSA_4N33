@@ -1,0 +1,6 @@
+#!C:\Users\Elsacoding\Documents\GitHub\PFSA\Python36\python.exe
+
+from cx_Freeze import main
+
+main()
+
