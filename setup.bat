@@ -40,5 +40,4 @@ echo " "
 echo " "
 echo " "
 echo Build Complete
-timeout -1
 echo on
