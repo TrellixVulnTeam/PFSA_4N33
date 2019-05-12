@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- script: Python36\Scripts\cython --embed -o hello_world.c hello_world.py
+- script: cython --embed -o hello_world.c hello_world.py
   displayName: 'Python to C'
 
 - script: |
