@@ -1,6 +1,0 @@
-if [ ! -f /etc/pki/tls/openssl10.cnf ]
-then
-    /usr/bin/mkdir -p /etc/pki/tls
-    /usr/bin/cp /etc/defaults/etc/pki/tls/openssl10.cnf /etc/pki/tls/openssl10.cnf
-fi
-
