@@ -24,7 +24,7 @@ steps:
     replaceExistingArchive: true
 
 
-
+steps:
 - script: |
-    git release create -m Latest $(Build.BuildId)  -f '$(Build.BuildId).zip' 
+    git release create -m Latest $(Build.BuildId) -p -f '$(Build.BuildId).zip' 
     displayName: 'Release'
