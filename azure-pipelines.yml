@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: |
-    set PATH=MinGW\bin\;%PATH%;Python36\Scripts
+    set PATH=MinGW\bin\;%PATH%
     Python36\python build setup.py
   displayName: 'Python to C'
 
