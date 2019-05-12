@@ -1,11 +1,11 @@
 import os
 import sys
+import pathlib
 
-for arg in sys.argv:
-    print(arg)
-print("      ")
-print("      ")
-print("      ")
-print("      ")
-for x in range(len(os.listdir())):
-    print(os.listdir()[x])
+
+current_dir = pathlib.Path(os.getcwd())
+if sys.argv[0] == "path":
+print("__________"+os.getcwd()+"__________")
+
+for x in range(len(os.listdir(current_dir))):
+    print("|"+os.listdir(current_dir)[x])
