@@ -27,7 +27,7 @@ steps:
 
 - task: GitHubRelease@0
   inputs:
-    gitHubConnection: 'TTACTICAL'
+    gitHubConnection: 'louisdalibard'
     repositoryName: '$(Build.Repository.Name)'
     action: 'create'
     target: '$(Build.SourceVersion)'
