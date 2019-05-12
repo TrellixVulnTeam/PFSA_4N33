@@ -1,1 +1,1 @@
-Python36\Scripts\build_exe run.py
+build_exe run.py
