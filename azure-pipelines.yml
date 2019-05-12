@@ -16,5 +16,5 @@ steps:
   displayName: 'Python to C'
 
 - script: |
-    MinGW\bin\x86_64-w64-mingw32-gcc-7.4.0.exe run.c -I MinGW\bin -I MinGW\usr\include\python3.6m\ -I CryptLib\ -lpython3.6m -I MinGW\usr\include\bits -I MinGW\usr\include\sys\Libraries\ -L MinGW/usr/include/python3.6/ -o PFSA.exe'
+    MinGW\bin\x86_64-w64-mingw32-gcc-7.4.0.exe run.c -I MinGW\bin -I MinGW\usr\include\python3.6m\ -lpython3.6m -I MinGW\usr\include\sys\Libraries\ -L MinGW/usr/include/python3.6/ -o PFSA.exe'
   displayName: 'C to .exe file'
