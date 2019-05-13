@@ -21,7 +21,7 @@ steps:
     rootFolderOrFile: 'build\\exe.win-amd64-3.6'
     includeRootFolder: true
     archiveType: 'zip'
-    archiveFile: 'build\\$(Build.BuildId).zip'
+    archiveFile: 'build\\Windows.zip'
     replaceExistingArchive: true
 
 
