@@ -18,10 +18,10 @@ steps:
 
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: 'build\\exe.win-amd64-3.6'
+    rootFolderOrFile: '$(Build.BinariesDirectory)'
     includeRootFolder: true
     archiveType: 'zip'
-    archiveFile: 'build\\Windows.zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/build/Windows.zip'
     replaceExistingArchive: true
 
 
