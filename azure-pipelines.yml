@@ -18,15 +18,15 @@ steps:
 
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: 'build\exe.win-amd64-3.6'
+    rootFolderOrFile: 'build\\exe.win-amd64-3.6'
     includeRootFolder: true
     archiveType: 'zip'
-    archiveFile: '$(Build.BuildId).zip'
+    archiveFile: 'build\\$(Build.BuildId).zip'
     replaceExistingArchive: true
 
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: 'build\\'
     ArtifactName: 'Release'
     publishLocation: 'Container'
