@@ -21,12 +21,12 @@ steps:
     rootFolderOrFile: '$(Build.BinariesDirectory)'
     includeRootFolder: true
     archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/build/Windows.zip'
+    archiveFile: '$(Build.BinariesDirectory)/build/Windows.zip'
     replaceExistingArchive: true
 
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'build\\'
+    PathtoPublish: '$(Build.BinariesDirectory)/build/'
     ArtifactName: 'Release'
     publishLocation: 'Container'
