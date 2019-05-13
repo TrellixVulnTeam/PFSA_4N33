@@ -23,11 +23,4 @@ steps:
     archiveFile: '$(Build.BuildId).zip'
     replaceExistingArchive: true
 
-- task: GitHubRelease@3
-  displayName: 'GitHub release (create)'
-  inputs:
-    gitHubConnection: TTACTICAL
-    title: 'Latest $(Build.BuildId)'
-    assets: '$(Build.BuildId).zip'
-    isPreRelease: true
 
