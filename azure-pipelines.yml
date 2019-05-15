@@ -11,17 +11,22 @@ pool:
 
 steps:
 - script: |
+    echo windows-build
     setup
     displayName: 'CxFreeze'
 
 
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: 'build\exe.win-amd64-3.6'
+    rootFolderOrFile: '$(Build.BinariesDirectory)'
     includeRootFolder: true
     archiveType: 'zip'
-    archiveFile: '$(Build.BuildId).zip'
+    archiveFile: '$(Build.BinariesDirectory)/build/Windows.zip'
     replaceExistingArchive: true
 
 
-
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.BinariesDirectory)/build/'
+    ArtifactName: 'Release'
+    publishLocation: 'Container'

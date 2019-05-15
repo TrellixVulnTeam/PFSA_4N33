@@ -5,7 +5,7 @@
 PFSA is a command line file manipulator...
 
 # Releases
-https://github.com/TTACTICAL/PFSA
+https://github.com/TTACTICAL/PFSA/releases
 
 # Explorer
 To enter the explorer mode write `explorer` as the first argument.
