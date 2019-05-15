@@ -2,6 +2,8 @@
 import os
 import sys
 import pathlib
+
+
 #Easy to use clear command
 clear = lambda: os.system('cls')
 directory = ""
@@ -14,8 +16,6 @@ def pathlistdisplay(directory):
 
 def open(directory):
     os.system("start "+str(pathlib.Path(directory)))
-
-
 
 
 current_dir = str(pathlib.Path(os.getcwd()))
@@ -42,7 +42,11 @@ if pth == True:
         while 1:
             clear()
             directory = pathlib.Path(directory)
-            pathlistdisplay(directory)
+            try:
+                pathlistdisplay(directory)
+            except:
+                print("Invalid Directory")
+                directory = pathlib.Path(directory.parent)
             command = input(": ")
             if command == "exit":
                 break
@@ -50,10 +54,13 @@ if pth == True:
                 directory = pathlib.Path(directory.parent)
             if command[0] == "g":
                 if command[1] == "o":
-                    folder = str(directory)+"\\"
-                    for j in range(len(command)-3):
-                        folder = folder+command[j+3]
-                    directory = pathlib.Path(folder)
+                    try:
+                        folder = str(directory)+"\\"
+                        for j in range(len(command)-3):
+                            folder = folder+command[j+3]
+                        directory = pathlib.Path(folder)
+                    except:
+                        print("Invalid Directory")
     if sys.argv[1] == "open":
         cancellisting = True
         #Testing if the directory is precised... If not use current working directory
