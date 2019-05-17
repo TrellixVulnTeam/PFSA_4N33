@@ -28,7 +28,10 @@ except:
 cancellisting = False
 if pth == True:
     if sys.argv[1] == "img":
-        os.mkdir("C:\\tmp\\PFSA\\")
+        try:
+            os.mkdir("C:\\tmp\\PFSA\\")
+        except:
+            pass
         urllib.request.urlretrieve("https://raw.githubusercontent.com/TTACTICAL/PFSA/master/Assets/ben-klea-1593566-unsplash.jpg","C:\\tmp\\PFSA\\ben-klea-1593566-unsplash.jpg")
         urllib.request.urlretrieve("https://raw.githubusercontent.com/TTACTICAL/PFSA/master/Assets/OpenSans-Light.ttf","C:\\tmp\\PFSA\\OpenSans-Light.ttf")
         cancellisting = True
@@ -44,14 +47,14 @@ if pth == True:
             size_precised = False
         if directory_precised == True:
             if size_precised == True:
-                imggenerate.generate(sys.argv[2],sys.argv[3]).save(sys.argv[2]+"\\"+"output.png")
+                imggenerate.generate(sys.argv[2],sys.argv[3]).save("output.png","PNG")
             if size_precised == False:
-                imggenerate.generate(sys.argv[2],40).save(sys.argv[2]+"\\"+"output.png")
+                imggenerate.generate(sys.argv[2],40).save("output.png","PNG")
         if directory_precised == False:
             if size_precised == True:
-                imggenerate.generate(current_dir,sys.argv[3]).save(current_dir+"\\"+"output.png")
+                imggenerate.generate(current_dir,sys.argv[3]).save("output.png","PNG")
             if size_precised == False:
-                imggenerate.generate(current_dir[2],40).save(current_dir+"\\"+"output.png")         
+                imggenerate.generate(current_dir[2],40).save("output.png","PNG")         
     if sys.argv[1] == "explorer":
         cancellisting = True
         try:
