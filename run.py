@@ -2,7 +2,7 @@
 import os
 import sys
 import pathlib
-
+import imggenerate
 
 #Easy to use clear command
 clear = lambda: os.system('cls')
@@ -27,6 +27,28 @@ except:
     pth = False
 cancellisting = False
 if pth == True:
+    if sys.argv[1] == "img":
+        cancellisting = True
+        try:
+            a = sys.argv[2]+" "
+            directory_precised = True
+        except:
+            directory_precised = False
+        try:
+            a = sys.argv[3]+" "
+            size_precised = True
+        except:
+            size_precised = False
+        if directory_precised == True:
+            if size_precised == True:
+                imggenerate.generate(sys.argv[2],sys.argv[3]).save(sys.argv[2]+"\\"+"output.png")
+            if size_precised == False:
+                imggenerate.generate(sys.argv[2],40).save(sys.argv[2]+"\\"+"output.png")
+        if directory_precised == False:
+            if size_precised == True:
+                imggenerate.generate(current_dir,sys.argv[3]).save(current_dir+"\\"+"output.png")
+            if size_precised == False:
+                imggenerate.generate(current_dir[2],40).save(current_dir+"\\"+"output.png")         
     if sys.argv[1] == "explorer":
         cancellisting = True
         try:

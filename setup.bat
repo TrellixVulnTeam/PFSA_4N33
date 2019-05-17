@@ -1,4 +1,6 @@
 Python36\python setup.py build
+mkdir build\exe.win-amd64-3.6\Assets
+copy Assets build\exe.win-amd64-3.6\Assets
 echo off
 echo " "
 echo " "
