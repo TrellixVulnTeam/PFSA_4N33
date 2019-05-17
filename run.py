@@ -3,7 +3,7 @@ import os
 import sys
 import pathlib
 import imggenerate
-
+import urllib.request
 #Easy to use clear command
 clear = lambda: os.system('cls')
 directory = ""
@@ -28,6 +28,9 @@ except:
 cancellisting = False
 if pth == True:
     if sys.argv[1] == "img":
+        os.mkdir("C:\\tmp\\PFSA\\")
+        urllib.request.urlretrieve("https://raw.githubusercontent.com/TTACTICAL/PFSA/master/Assets/ben-klea-1593566-unsplash.jpg","C:\\tmp\\PFSA\\ben-klea-1593566-unsplash.jpg")
+        urllib.request.urlretrieve("https://raw.githubusercontent.com/TTACTICAL/PFSA/master/Assets/OpenSans-Light.ttf","C:\\tmp\\PFSA\\OpenSans-Light.ttf")
         cancellisting = True
         try:
             a = sys.argv[2]+" "

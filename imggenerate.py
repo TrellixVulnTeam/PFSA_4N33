@@ -4,9 +4,9 @@ import os
 import sys
 def generate(path, textsize):
     path = pathlib.Path(path)
-    fnt = ImageFont.truetype('Assets/OpenSans-Light.ttf', 100)
-    fntb = ImageFont.truetype('Assets/OpenSans-Light.ttf', textsize)
-    background = Image.open("Assets/ben-klea-1593566-unsplash.jpg")
+    fnt = ImageFont.truetype('C:\\tmp\\PFSA\\OpenSans-Light.ttf', 100)
+    fntb = ImageFont.truetype('C:\\tmp\\PFSA\\OpenSans-Light.ttf', textsize)
+    background = Image.open("C:\\tmp\\PFSA\\ben-klea-1593566-unsplash.jpg")
     paddingx = 300
     paddingy = 50
     lineseparation = textsize*2.5
