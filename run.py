@@ -32,6 +32,7 @@ if pth == True:
             os.mkdir("C:\\tmp\\PFSA\\")
         except:
             pass
+        print("Step 1 : Downloading Assets")
         urllib.request.urlretrieve("https://raw.githubusercontent.com/TTACTICAL/PFSA/master/Assets/ben-klea-1593566-unsplash.jpg","C:\\tmp\\PFSA\\ben-klea-1593566-unsplash.jpg")
         urllib.request.urlretrieve("https://raw.githubusercontent.com/TTACTICAL/PFSA/master/Assets/OpenSans-Light.ttf","C:\\tmp\\PFSA\\OpenSans-Light.ttf")
         cancellisting = True
