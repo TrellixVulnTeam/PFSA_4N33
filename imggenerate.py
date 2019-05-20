@@ -19,7 +19,7 @@ def generate(path, textsize):
     print("Step 3 : Drawing")
     d = ImageDraw.Draw(background)
     d.line((0,90,background.size[0],90), fill=(255,255,255))
-    d.text((((background.size[0]/2)-(len(str(path))*100)),100), str(path), font=fnt, fill=(255,255,255))
+    d.text((((paddingy)-(len(str(path))*100)),100), str(path), font=fnt, fill=(255,255,255))
     for x in range(len(os.listdir(str(path)))):
         d.line((0,paddingx+((x)*lineseparation),background.size[0],paddingx+((x)*lineseparation)), fill=(255,255,255))
         d.text((paddingy ,paddingx+((x)*lineseparation)), os.listdir(str(path))[x], font=fntb, fill=(255,255,255))
