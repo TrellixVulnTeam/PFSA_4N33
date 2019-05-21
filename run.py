@@ -4,9 +4,13 @@ import sys
 import pathlib
 import imggenerate
 import urllib.request
+import strtoolkit
+import config
+
 #Easy to use clear command
 clear = lambda: os.system('cls')
 directory = ""
+
 def pathlistdisplay(directory):
     directory = pathlib.Path(directory)
     #Cool tree listing...
@@ -33,8 +37,10 @@ if pth == True:
         except:
             pass
         print("Step 1 : Downloading Assets")
-        urllib.request.urlretrieve("https://raw.githubusercontent.com/TTACTICAL/PFSA/master/Assets/ben-klea-1593566-unsplash.jpg","C:\\tmp\\PFSA\\ben-klea-1593566-unsplash.jpg")
-        urllib.request.urlretrieve("https://raw.githubusercontent.com/TTACTICAL/PFSA/master/Assets/OpenSans-Light.ttf","C:\\tmp\\PFSA\\OpenSans-Light.ttf")
+        print("1)",config.background())
+        urllib.request.urlretrieve(config.background(),"C:\\tmp\\PFSA\\background.jpg")
+        print("2)",config.font())
+        urllib.request.urlretrieve(config.font(),"C:\\tmp\\PFSA\\font.ttf")
         cancellisting = True
         try:
             a = sys.argv[2]+" "
