@@ -6,6 +6,7 @@ import imggenerate
 import urllib.request
 import strtoolkit
 import config
+import codecs
 
 #Easy to use clear command
 clear = lambda: os.system('cls')

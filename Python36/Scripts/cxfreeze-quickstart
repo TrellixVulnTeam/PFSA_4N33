@@ -1,4 +1,4 @@
-#!C:\Users\Elsacoding\Documents\GitHub\PFSA\Python36\python.exe
+#!c:\users\elsacoding\documents\github\pfsa\python36\python.exe
 from cx_Freeze.setupwriter import main
 
 main()
