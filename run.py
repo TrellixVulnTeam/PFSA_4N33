@@ -41,6 +41,8 @@ if pth == True:
         urllib.request.urlretrieve(config.background(),"C:\\tmp\\PFSA\\background.jpg")
         print("2)",config.font())
         urllib.request.urlretrieve(config.font(),"C:\\tmp\\PFSA\\font.ttf")
+        print("3)",config.fileicon())
+        urllib.request.urlretrieve(config.fileicon(),"C:\\tmp\\PFSA\\fileicon.png")
         cancellisting = True
         try:
             a = sys.argv[2]+" "
