@@ -1,4 +1,4 @@
-Python36\Scripts\pip uninstall cx_freeze
+Python36\Scripts\pip uninstall --yes cx_freeze
 Python36\Scripts\pip install cx_freeze
 Python36\python setup.py build
 echo off

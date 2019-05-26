@@ -7,7 +7,7 @@ def generate(path, textsize):
     fnt = ImageFont.truetype('C:\\tmp\\PFSA\\font.ttf', 100)
     fntb = ImageFont.truetype('C:\\tmp\\PFSA\\font.ttf', textsize)
     background = Image.open("C:\\tmp\\PFSA\\background.jpg").convert("RGBA")
-    fileicon = Image.open("C:\\tmp\\PFSA\\fileicon.png").convert("RGBA").invert()
+    fileicon = Image.open("C:\\tmp\\PFSA\\fileicon.png")
     fileicon.thumbnail((50,50), Image.ANTIALIAS)
     paddingx = 300
     paddingy = 50
